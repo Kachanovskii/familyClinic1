@@ -25964,6 +25964,10 @@ body {
     justify-content: space-between;
   }
 
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info {
+    max-height: 180px;
+  }
+
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__p {
     display: none;
   }
