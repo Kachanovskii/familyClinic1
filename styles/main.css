@@ -19186,7 +19186,6 @@ ul {
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card {
   display: flex;
   flex-wrap: wrap;
-  flex: 0 0 auto;
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info {
@@ -19206,11 +19205,6 @@ ul {
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:hover {
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.12);
-}
-
-.directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__a {
-  display: block;
-  height: 100%;
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .container-img {
@@ -25764,10 +25758,6 @@ body {
 
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__heading h3 {
     width: 100%;
-  }
-
-  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card {
-    height: 100%;
   }
 
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__heading {
