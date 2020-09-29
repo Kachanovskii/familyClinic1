@@ -19210,8 +19210,7 @@ ul {
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .container-img {
   padding: 25px 0;
   background-color: #eee;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .container-img .card__img {
