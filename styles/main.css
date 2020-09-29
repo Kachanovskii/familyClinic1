@@ -19186,6 +19186,7 @@ ul {
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card {
   display: flex;
   flex-wrap: wrap;
+  flex: 0 0 auto;
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info {
