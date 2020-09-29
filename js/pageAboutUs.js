@@ -352,6 +352,7 @@ for (var i = 0; i < a.length; i++) {
 
   if (a[i].href == link) {
     a[i].style.opacity = '0.6';
+    a[i].classList.add('active-point');
   }
 }
 

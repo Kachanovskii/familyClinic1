@@ -18933,6 +18933,19 @@ ul {
   opacity: 0.6;
 }
 
+.header .header-navigation .container .header-navigation__section .navigation .active-point:before {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #505050;
+  opacity: 0.6;
+  top: 7px;
+  position: absolute;
+  left: -12px;
+}
+
 .header .header-navigation .container .header-navigation__section .navigation .link-red {
   color: #ec441c;
 }
@@ -19162,7 +19175,7 @@ ul {
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__heading h3::after {
-  content: "";
+  content: '';
   display: block;
   width: 150px;
   border-bottom: 2px solid;
@@ -19171,15 +19184,23 @@ ul {
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info {
   overflow: hidden;
+  margin-right: 1.32%;
+  margin-bottom: 1.32%;
+  flex-basis: 24%;
   border-radius: 8px;
   border: 1px solid #eee;
+}
+
+.directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(4),
+.directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(8),
+.directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(12) {
+  margin-right: 0;
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:hover {
@@ -19188,6 +19209,7 @@ ul {
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__a {
   display: block;
+  height: 100%;
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .container-img {
@@ -19202,8 +19224,8 @@ ul {
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card-content {
-  display: grid;
-  grid-template-rows: 1fr 1fr 0.5fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__heading {
@@ -21115,18 +21137,18 @@ body {
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  padding: 25px 0px 40px;
+  padding: 25px 0px 35px;
 }
 
 .prices .container .prices-content .list-heading {
-  padding: 0px 15px 15px;
+  padding: 0px 20px 15px;
   font-size: 21px;
   font-family: "Roboto-Regular";
   color: #9d9d9d;
 }
 
 .prices .container .prices-content .prices-list {
-  padding: 0px 15px 0px 37px;
+  padding: 0px 0px 0px 45px;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
@@ -21149,7 +21171,7 @@ body {
   top: 12px;
   left: -25px;
   color: #04aac7;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .prices .container .prices-content .prices-list .prices-list__item p {
@@ -21159,6 +21181,7 @@ body {
 .prices .container .prices-content .prices-list .prices-list__item span {
   text-align: center;
   top: 15px;
+  padding: 0 15px;
   font-size: 22px;
   font-weight: 500;
   position: absolute;
@@ -21173,6 +21196,7 @@ body {
   min-height: 0;
   opacity: 0;
   transition: 0.3s;
+  padding-right: 15px;
 }
 
 .prices .container .prices-content .prices-list .prices-list__item .show__table {
@@ -25527,16 +25551,27 @@ body {
     width: 70%;
   }
 
-  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card-content {
-    grid-template-rows: 1fr 1fr;
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info {
+    flex-basis: 32%;
+    margin-right: 2%;
+    margin-bottom: 2%;
   }
 
-  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__detail {
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__detail {
     display: none;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(4),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(8),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(12) {
+    margin-right: 2%;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(3),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(6),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(9),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(12) {
+    margin-right: 0;
   }
 
   body {
@@ -25731,11 +25766,20 @@ body {
   }
 
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card {
-    grid-template-columns: 1fr 1fr;
+    height: 100%;
   }
 
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__heading {
+    font-size: 14px;
     padding: 15px;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card-content {
+    height: 50%;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card-content .card__p {
+    margin-top: auto;
   }
 
   body {
@@ -25839,10 +25883,6 @@ body {
     font-size: 17px;
   }
 
-  .prices .container .prices-heading h3 {
-    width: 100%;
-  }
-
   .prices .container .prices-heading h2 {
     font-size: 25px;
   }
@@ -25929,24 +25969,49 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card-content {
-    grid-template-rows: 1fr;
-  }
-
-  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card-content .card__heading {
-    padding: 15px 15px;
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card {
+    justify-content: space-between;
   }
 
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__p {
     display: none;
   }
 
-  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__heading {
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info {
+    flex-basis: 47%;
+    margin-right: 0%;
+    margin-bottom: 6%;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__info .card__p {
+    display: none;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__info .card__heading {
     text-align: center;
     margin-top: 0px;
     font-size: 14px;
     font-family: "Roboto-Medium";
     color: #505050;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(1),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(2),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(3),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(4),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(5),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(6),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(7),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(8),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(9),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(10),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(11),
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info:nth-last-of-type(12) {
+    margin-right: 0%;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__heading {
+    padding: 15px 15px;
   }
 
   .reviewsOfDoctors .container-fluid .container .review__head .reviews__head_text {
@@ -26083,12 +26148,6 @@ body {
 
   .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__text-img .slider__photos-clinic .owl-dots {
     display: none;
-  }
-}
-
-@media (max-width: 349.98px) {
-  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card {
-    grid-template-columns: 1fr;
   }
 }
 
