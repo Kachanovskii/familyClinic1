@@ -19192,7 +19192,7 @@ ul {
   overflow: hidden;
   margin-right: 1.32%;
   margin-bottom: 1.32%;
-  flex-basis: 24%;
+  width: 24%;
   border-radius: 8px;
   border: 1px solid #eee;
 }
@@ -25547,7 +25547,7 @@ body {
   }
 
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info {
-    flex-basis: 32%;
+    width: 32%;
     margin-right: 2%;
     margin-bottom: 2%;
   }
@@ -25969,7 +25969,7 @@ body {
   }
 
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info {
-    flex-basis: 47%;
+    width: 47%;
     margin-right: 0%;
     margin-bottom: 6%;
   }
