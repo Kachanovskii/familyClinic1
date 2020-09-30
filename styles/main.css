@@ -18946,6 +18946,10 @@ ul {
   left: -12px;
 }
 
+.header .header-navigation .container .header-navigation__section .navigation .active-point-primary.active-point:before {
+  background-color: #ec441c;
+}
+
 .header .header-navigation .container .header-navigation__section .navigation .link-red {
   color: #ec441c;
 }
@@ -20107,6 +20111,188 @@ body {
   line-height: 1.2;
 }
 
+.container-fluid .promo {
+  padding: 60px 0;
+  background: #fcfcfc;
+}
+
+.container-fluid .promo .container .promo-heading {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.container-fluid .promo .container .promo-heading h2 {
+  font-size: 28px;
+  font-family: "Roboto-Medium";
+  color: #f06b4b;
+}
+
+.container-fluid .promo .container .promo-heading h2::after {
+  content: "";
+  display: block;
+  width: 150px;
+  position: relative;
+  bottom: -6px;
+}
+
+.container-fluid .promo .container .promo-heading h3 {
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: "Roboto-Light";
+  color: #767676;
+}
+
+.container-fluid .promo .container .promo-heading h3 strong {
+  font-size: 21.5px;
+  font-family: "Roboto-Medium";
+}
+
+.container-fluid .promo .container .promo-heading a {
+  padding-top: 12px;
+  display: block;
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #0395ae;
+}
+
+.container-fluid .promo .container .promo-heading a i {
+  padding-left: 5px;
+  font-size: 11px;
+}
+
+.container-fluid .promo .container .promo-heading a:hover {
+  text-decoration: underline;
+}
+
+.container-fluid .promo .container .promo-content p {
+  font-size: 15px;
+  font-family: "Roboto-Regular";
+  color: #505050;
+}
+
+.container-fluid .promo .container .promo-content .cards-container {
+  text-align: justify;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card {
+  display: inline-block;
+  width: 31%;
+  margin-bottom: 3%;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card .card-header {
+  background-size: cover;
+  filter: contrast(130%);
+  height: 180px;
+  position: relative;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter {
+  padding: 20px 100px 20px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading h5 {
+  font-size: 20px;
+  font-family: "Roboto-Medium";
+  color: #fff;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading p {
+  font-size: 14px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card .card-info {
+  padding: 20px 20px 17px 20px;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card .card-info p {
+  font-size: 14px;
+  font-family: "Roboto-Regular";
+  color: #505050;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card .card-info a {
+  font-size: 14px;
+  font-family: "Roboto-Medium";
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 8px;
+  background: #04aac7;
+  display: block;
+  width: min-content;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-1 .card-header {
+  background: url(../../../img/promotions/1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-2 .card-header {
+  background: url(../../../img/promotions/2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-3 .card-header {
+  background: url(../../../img/promotions/3.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-4 .card-header {
+  background: url(../../../img/promotions/4.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-5 .card-header {
+  background: url(../../../img/promotions/5.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-6 .card-header {
+  background: url(../../../img/promotions/6.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-7 .card-header {
+  background: url(../../../img/promotions/7.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-8 .card-header {
+  background: url(../../../img/promotions/8.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-9 .card-header {
+  background: url(../../../img/promotions/9.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card-10 .card-header {
+  background: url(../../../img/promotions/10.jpg) no-repeat;
+  background-size: cover;
+}
+
 .ourAdvantages .container-fluid {
   border-bottom: 1.5px solid #efefef;
   background: linear-gradient(180deg, #fcfcfc, rgba(238, 238, 238, 0.4));
@@ -20479,7 +20665,6 @@ body {
   height: 100%;
   z-index: 9999;
   opacity: 0;
-  background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: saturate(180%) blur(15px);
   visibility: hidden;
   backface-visibility: hidden;
@@ -20896,7 +21081,6 @@ body {
   visibility: hidden;
   backface-visibility: hidden;
   transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-  background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: saturate(180%) blur(15px);
 }
 
@@ -21690,8 +21874,8 @@ body {
 }
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row .box-photo {
-  margin-bottom: 15px;
   font-size: 0;
+  padding: 0 30px 30px 0;
 }
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row .box-photo img {
@@ -21702,10 +21886,10 @@ body {
 }
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor {
+  margin-bottom: 30px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   border-right: 3px solid #04aac7;
   border-radius: 8px;
-  margin: 20px 0 35px 0;
   background-color: #fff;
   padding: 0 20px;
 }
@@ -21714,7 +21898,7 @@ body {
   font-size: 28px;
   font-family: "Roboto-Regular";
   color: #505050;
-  padding: 30px 0;
+  padding: 40px 0 30px 0;
   margin-bottom: 20px;
 }
 
@@ -25436,7 +25620,8 @@ body {
   }
 
   .footer_main .container-fluid .container .footer__section .footer__content .footer__block-btn .custom-btn {
-    padding: 10px 13px;
+    padding: 10px 11px;
+    font-size: 13.5px;
   }
 
   .footer_main .container-fluid .container .footer__section .footer__content:nth-of-type(2) {
@@ -25478,6 +25663,15 @@ body {
 
   .mainDoctorsAndReferrals .container-fluid .container .mainDoctorsAndReferrals__cartsOfDoctors .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__box-img img {
     max-width: 200px;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .doctor__text-head {
+    margin-bottom: 0;
+    padding: 30px 0;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .details-info .specialization {
+    padding-bottom: 20px;
   }
 }
 
@@ -25600,7 +25794,7 @@ body {
 
   .footer_main .container-fluid .container .footer__section .footer__content .footer__block-btn i {
     align-self: flex-end;
-    margin: 10px 35px 20px 0;
+    margin: 10px 37px 20px 0;
   }
 
   .footer_main .container-fluid .container .footer__section .footer__content .footer__block-btn .custom-btn {
@@ -25662,6 +25856,14 @@ body {
 
   .ourDoctors .container-fluid .container .ourDoctors__container .ourDoctors__head .ourDoctors__head-text h3 {
     width: 70%;
+  }
+
+  .container-fluid .promo .container .promo-heading h2 {
+    font-size: 28px;
+  }
+
+  .container-fluid .promo .container .promo-heading h3 {
+    font-size: 18px;
   }
 
   .ourAdvantages .container-fluid {
@@ -25737,6 +25939,14 @@ body {
 
   .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__reviewsOfDoctors .mainAboutUs__reviewsOfDoctors_content .reviewsOfDoctors .container-fluid .container .review__content .review__item:nth-of-type(3) {
     margin-bottom: 30px;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .box-photo {
+    padding: 0;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor {
+    padding: 0 0 10px 30px;
   }
 }
 
@@ -25833,6 +26043,18 @@ body {
 
   .ourDoctors .container-fluid .container .ourDoctors__container .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__box-img {
     margin-top: 20px;
+  }
+
+  .container-fluid .promo .container .promo-heading h2 {
+    width: 100%;
+  }
+
+  .container-fluid .promo .container .promo-heading h2 {
+    font-size: 25px;
+  }
+
+  .container-fluid .promo .container .promo-heading h3 {
+    font-size: 17px;
   }
 
   .ourAdvantages .container-fluid .container .ourAdvantages__content .ourAdvantages__item:nth-of-type(-n + 2) {
@@ -25961,10 +26183,6 @@ body {
 @media (max-width: 575.98px) {
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card {
     justify-content: space-between;
-  }
-
-  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info {
-    max-height: 180px;
   }
 
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__p {
