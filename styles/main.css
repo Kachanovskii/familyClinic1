@@ -20116,6 +20116,10 @@ body {
   background: #fcfcfc;
 }
 
+.container-fluid .promo .container {
+  padding: 0;
+}
+
 .container-fluid .promo .container .promo-heading {
   text-align: center;
   margin: 0 0 40px 0;
@@ -20175,6 +20179,7 @@ body {
 }
 
 .container-fluid .promo .container .promo-content .cards-container .p-card {
+  text-align: left;
   display: inline-block;
   width: 31%;
   margin-bottom: 3%;
@@ -20237,7 +20242,7 @@ body {
   font-family: "Roboto-Medium";
   color: #fff;
   padding: 5px 8px;
-  border-radius: 8px;
+  border-radius: 5px;
   background: #04aac7;
   display: block;
   width: min-content;
@@ -25675,6 +25680,13 @@ body {
   }
 }
 
+@media (max-width: 992.98px) {
+  .container-fluid .promo .container .promo-content .cards-container .p-card {
+    width: 48.5%;
+    margin-bottom: 3%;
+  }
+}
+
 @media (max-width: 991.98px) {
   .breadcrumbs {
     margin-top: 80px;
@@ -26055,6 +26067,30 @@ body {
 
   .container-fluid .promo .container .promo-heading h3 {
     font-size: 17px;
+  }
+
+  .container-fluid .promo .container .promo-content .cards-container .p-card {
+    width: 100%;
+  }
+
+  .container-fluid .promo .container .promo-content .cards-container .p-card .card-header {
+    height: 145px;
+  }
+
+  .container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter {
+    padding: 20px 80px 20px 20px;
+  }
+
+  .container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading h5 {
+    font-size: 18px;
+  }
+
+  .container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading p {
+    font-size: 12px;
+  }
+
+  .container-fluid .promo .container .promo-content .cards-container .p-card .card-info p {
+    font-size: 12px;
   }
 
   .ourAdvantages .container-fluid .container .ourAdvantages__content .ourAdvantages__item:nth-of-type(-n + 2) {
