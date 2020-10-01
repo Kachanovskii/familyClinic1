@@ -484,7 +484,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   jquery__WEBPACK_IMPORTED_MODULE_0___default()(".owl-three").owlCarousel({
-    items: 4,
+    items: 3,
     loop: true,
     margin: 10,
     nav: false,

@@ -20132,7 +20132,7 @@ body {
 }
 
 .container-fluid .promo .container .promo-heading h2::after {
-  content: "";
+  content: '';
   display: block;
   width: 150px;
   position: relative;
@@ -20175,18 +20175,22 @@ body {
 }
 
 .container-fluid .promo .container .promo-content .cards-container {
-  text-align: justify;
+  display: inline-block;
 }
 
 .container-fluid .promo .container .promo-content .cards-container .p-card {
-  text-align: left;
-  display: inline-block;
-  width: 31%;
-  margin-bottom: 3%;
+  width: calc((100% - 50px) / 3);
+  float: left;
+  margin-bottom: 25px;
+  margin-right: 25px;
   border-radius: 8px;
   background: #fff;
   overflow: hidden;
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.container-fluid .promo .container .promo-content .cards-container .p-card:nth-child(3n) {
+  margin-right: 0;
 }
 
 .container-fluid .promo .container .promo-content .cards-container .p-card .card-header {
@@ -21094,31 +21098,6 @@ body {
   visibility: visible;
 }
 
-.ribbon {
-  padding: 10px;
-  background: #eee;
-}
-
-.ribbon .container .ribbon-content p {
-  text-align: center;
-  font-size: 12px;
-  font-family: "Roboto-Regular";
-  color: #505050;
-  letter-spacing: 0.3px;
-}
-
-.ribbon .container .ribbon-content p a {
-  letter-spacing: 0;
-}
-
-.ribbon .container .ribbon-content p a:hover {
-  text-decoration: underline;
-}
-
-.ribbon .container .ribbon-content p a i {
-  font-size: 10px;
-}
-
 .promotions {
   padding: 60px 0;
   background: linear-gradient(180deg, #fcfcfc, #fcfcfc, #fcfcfc, #efefef);
@@ -21172,116 +21151,127 @@ body {
   text-decoration: underline;
 }
 
-.promotions .container .promotions-content .promotions-cards {
-  display: flex;
+.promotions .container .promo-content p {
+  font-size: 15px;
+  font-family: "Roboto-Regular";
+  color: #505050;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item {
-  margin-right: 15px;
-}
-
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content {
+.promotions .container .promo-content .cards-container .p-card {
+  border-radius: 8px;
+  background: #fff;
   overflow: hidden;
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.promotions .container .promo-content .cards-container .p-card .card-header {
+  background-size: cover;
+  filter: contrast(130%);
   height: 180px;
-  border-radius: 5px;
+  position: relative;
+}
+
+.promotions .container .promo-content .cards-container .p-card .card-header .filter {
+  padding: 20px 100px 20px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.promotions .container .promo-content .cards-container .p-card .card-header .filter .card-heading {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-heading {
-  border-radius: 5px;
-  padding: 15px;
+.promotions .container .promo-content .cards-container .p-card .card-header .filter .card-heading h5 {
+  font-size: 20px;
+  font-family: "Roboto-Medium";
+  color: #fff;
+}
+
+.promotions .container .promo-content .cards-container .p-card .card-header .filter .card-heading p {
+  font-size: 14px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+}
+
+.promotions .container .promo-content .cards-container .p-card .card-info {
+  padding: 20px 20px 17px 20px;
+  display: none;
+}
+
+.promotions .container .promo-content .cards-container .p-card .card-info p {
+  font-size: 14px;
+  font-family: "Roboto-Regular";
+  color: #505050;
+  line-height: 1.5;
   margin-bottom: 15px;
-  display: flex;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-heading .card-img {
-  width: 75px;
-  padding-left: 15px;
-}
-
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-heading p {
-  font-size: 15px;
-  font-family: "Roboto-Regular";
-  color: #fff;
-}
-
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-heading .p-bold {
-  padding-bottom: 10px;
-  font-size: 18px;
-  font-family: "Roboto-Regular";
-  color: #fff;
-}
-
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-text {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
-  padding: 15px 10px 10px;
-}
-
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-text p {
-  font-size: 12.5px;
-  font-family: "Roboto-Regular";
-  color: #505050;
-}
-
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-info {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 10px 15px;
-  display: flex;
-  flex: 0 0 auto;
-  justify-content: space-between;
-  font-size: 15px;
-  font-family: "Roboto-Regular";
-  color: #505050;
-}
-
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-info .more-detail {
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 7px;
-  text-transform: uppercase;
-  font-size: 12px;
+.promotions .container .promo-content .cards-container .p-card .card-info a {
+  font-size: 14px;
   font-family: "Roboto-Medium";
-  color: #04aac7;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: #04aac7;
+  display: block;
+  width: min-content;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-info .old-price {
-  margin-left: auto;
-  position: relative;
-  padding-right: 15px;
+.promotions .container .promo-content .cards-container .p-card-1 .card-header {
+  background: url(../img/promotions/1.jpg) no-repeat;
+  background-size: cover;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-info .old-price:before {
-  position: absolute;
-  content: "";
-  height: 1px;
-  width: 100%;
-  background-color: #e72a19;
-  top: 8px;
-  right: 10px;
-  transform: rotate(20deg);
+.promotions .container .promo-content .cards-container .p-card-2 .card-header {
+  background: url(../img/promotions/2.jpg) no-repeat;
+  background-size: cover;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card-content .promotions-card-info .new-price {
-  font-family: "Roboto-Medium";
+.promotions .container .promo-content .cards-container .p-card-3 .card-header {
+  background: url(../img/promotions/3.jpg) no-repeat;
+  background-size: cover;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card1 {
-  background: linear-gradient(45deg, #8245bf, #a87ed3);
+.promotions .container .promo-content .cards-container .p-card-4 .card-header {
+  background: url(../img/promotions/4.jpg) no-repeat;
+  background-size: cover;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card2 {
-  background: linear-gradient(45deg, #04d99d, #2efbc1);
+.promotions .container .promo-content .cards-container .p-card-5 .card-header {
+  background: url(../img/promotions/5.jpg) no-repeat;
+  background-size: cover;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card3 {
-  background: linear-gradient(45deg, #f27e63, #f8b8aa);
+.promotions .container .promo-content .cards-container .p-card-6 .card-header {
+  background: url(../img/promotions/6.jpg) no-repeat;
+  background-size: cover;
 }
 
-.promotions .container .promotions-content .promotions-cards .promotions-item .promotions-card4 {
-  background: linear-gradient(45deg, #6805f2, #9348fb);
+.promotions .container .promo-content .cards-container .p-card-7 .card-header {
+  background: url(../img/promotions/7.jpg) no-repeat;
+  background-size: cover;
+}
+
+.promotions .container .promo-content .cards-container .p-card-8 .card-header {
+  background: url(../img/promotions/8.jpg) no-repeat;
+  background-size: cover;
+}
+
+.promotions .container .promo-content .cards-container .p-card-9 .card-header {
+  background: url(../img/promotions/9.jpg) no-repeat;
+  background-size: cover;
+}
+
+.promotions .container .promo-content .cards-container .p-card-10 .card-header {
+  background: url(../img/promotions/10.jpg) no-repeat;
+  background-size: cover;
 }
 
 .prices {
@@ -25682,8 +25672,15 @@ body {
 
 @media (max-width: 992.98px) {
   .container-fluid .promo .container .promo-content .cards-container .p-card {
-    width: 48.5%;
-    margin-bottom: 3%;
+    width: calc((100% - 25px) / 2);
+  }
+
+  .container-fluid .promo .container .promo-content .cards-container .p-card:nth-child(3n) {
+    margin-right: 25px;
+  }
+
+  .container-fluid .promo .container .promo-content .cards-container .p-card:nth-child(2n) {
+    margin-right: 0;
   }
 }
 
@@ -26071,6 +26068,10 @@ body {
 
   .container-fluid .promo .container .promo-content .cards-container .p-card {
     width: 100%;
+  }
+
+  .container-fluid .promo .container .promo-content .cards-container .p-card:nth-child(1n) {
+    margin-right: 0;
   }
 
   .container-fluid .promo .container .promo-content .cards-container .p-card .card-header {
