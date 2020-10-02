@@ -497,7 +497,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
         items: 1.1
       },
       500.98: {
-        items: 2
+        items: 1.2
       },
       991.98: {
         items: 3
@@ -527,7 +527,6 @@ try {
   _iterator.f();
 }
 
-console.log(tr[1].children.length);
 var toggle = false;
 var list = document.querySelectorAll('.prices-list__item');
 
