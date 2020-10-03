@@ -21979,8 +21979,12 @@ body {
 }
 
 .questions .container-fluid {
-  padding: 45px 0;
+  padding: 45px 15px;
   background-color: #f8f9fc;
+}
+
+.questions .container-fluid .container {
+  padding: 0;
 }
 
 .questions .container-fluid .container .questions-heading {
@@ -22010,22 +22014,22 @@ body {
   color: #505050;
 }
 
-.questions .container-fluid .container .prices-content {
-  padding: 25px 0px 35px;
+.questions .container-fluid .container .questions-content {
+  padding: 0px 0px 35px;
 }
 
-.questions .container-fluid .container .prices-content .list-heading {
+.questions .container-fluid .container .questions-content .list-heading {
   padding: 0px 20px 15px;
   font-size: 21px;
   font-family: "Roboto-Regular";
   color: #9d9d9d;
 }
 
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item {
+.questions .container-fluid .container .questions-content .questions-sections .questions-sections__item {
   overflow: hidden;
   position: relative;
   border-radius: 8px;
-  padding: 15px 50px;
+  padding: 15px 40px;
   margin-top: 20px;
   background-color: #fff;
   position: relative;
@@ -22037,27 +22041,32 @@ body {
   position: relative;
 }
 
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item .list-i {
+.questions .container-fluid .container .questions-content .questions-sections .questions-sections__item .list-i {
   position: absolute;
-  padding: 0 15px;
+  padding: 0 10px;
   height: 100%;
   display: flex;
   align-items: center;
   top: 0px;
   left: 0px;
-  color: #fff;
-  font-size: 27px;
-  border-right: 1px solid #fff;
-  background: #8becfd;
+  color: #bdf4fe;
+  font-size: 20px;
+  border-right: 1px solid #eee;
   transition: 0.3s;
 }
 
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item p {
-  padding: 0 0 0 15px;
+.questions .container-fluid .container .questions-content .questions-sections .questions-sections__item .list-i-active {
+  opacity: 1;
+  background-color: #8becfd;
+  color: #fff;
+}
+
+.questions .container-fluid .container .questions-content .questions-sections .questions-sections__item p {
+  padding: 0 0 0 10px;
   font-size: 18px;
 }
 
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item span {
+.questions .container-fluid .container .questions-content .questions-sections .questions-sections__item span {
   text-align: center;
   padding: 15px;
   position: absolute;
@@ -22066,60 +22075,32 @@ body {
   transition: transform 0.3s;
 }
 
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item span i {
-  font-size: 22px;
-  font-weight: 500;
+.questions .container-fluid .container .questions-content .questions-sections .questions-sections__item span i {
+  font-size: 20px;
   color: #026a7c;
 }
 
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item .table__container {
+.questions .container-fluid .container .questions-content .questions-sections .questions-sections__item .questions-text {
   overflow: hidden;
   max-height: 0px;
   height: 0;
   min-height: 0;
   opacity: 0;
-  padding-left: 10px;
+  padding: 0px 10px;
   transition: 0.3s;
-  padding-right: 30px;
 }
 
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item .table__container p {
+.questions .container-fluid .container .questions-content .questions-sections .questions-sections__item .questions-text p {
   font-size: 16px;
-  font-family: "Roboto-Light";
-  color: #026a7c;
+  font-family: "Roboto-Regular";
+  color: #037f95;
 }
 
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item .show__table {
+.questions .container-fluid .container .questions-content .questions-sections .questions-sections__item .show__sections {
   opacity: 1;
   height: auto;
   max-height: 1000px;
   min-height: 18px;
-}
-
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item .table-prices {
-  width: 100%;
-  border: 1px solid #eee;
-}
-
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item .table-prices tbody {
-  color: #6a6a6a;
-}
-
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item .table-prices tbody tr {
-  width: 100%;
-}
-
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item .table-prices tbody tr td {
-  padding: 10px 15px;
-}
-
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item .table-prices tbody tr .prices-detail {
-  font-size: 12px;
-  color: #767676;
-}
-
-.questions .container-fluid .container .prices-content .prices-list .prices-list__item:nth-of-type(1) {
-  border: none;
 }
 
 @media screen and (min-width: 36rem) {
@@ -26379,20 +26360,16 @@ body {
     font-size: 17px;
   }
 
-  .questions .container-fluid .container .prices-content .prices-list .prices-list__item {
+  .questions .container-fluid .container .questions-content .questions-sections .questions-sections__item .list-i {
+    font-size: 18px;
+  }
+
+  .questions .container-fluid .container .questions-content .questions-sections .questions-sections__item p {
+    font-size: 16px;
+  }
+
+  .questions .container-fluid .container .questions-content .questions-sections .questions-sections__item .questions-text {
     font-size: 14px;
-  }
-
-  .questions .container-fluid .container .prices-content .prices-list .prices-list__item .list-heading {
-    font-size: 15px;
-  }
-
-  .questions .container-fluid .container .prices-content .prices-list .prices-list__item .table-prices tbody tr td {
-    padding: 15px 10px;
-  }
-
-  .questions .container-fluid .container .prices-content .prices-list .prices-list__item .table-prices tbody tr td:nth-of-type(2) {
-    width: 70px;
   }
 }
 

@@ -581,10 +581,8 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-console.log('work');
-;
 var toggle = false;
-var list = document.querySelectorAll('.prices-list__item');
+var list = document.querySelectorAll('.questions-sections__item');
 
 var _iterator = _createForOfIteratorHelper(list),
     _step;
@@ -593,22 +591,18 @@ try {
   var _loop = function _loop() {
     var e = _step.value;
     e.addEventListener('click', function () {
-      console.log(e.children);
-
       if (toggle == false) {
+        console.log(e.children);
+        e.children[0].classList.add('list-i-active');
         e.children[1].style.paddingBottom = '10px';
-        e.style.color = '#04aac7';
         e.children[2].style.transform = 'rotate(90deg)';
-        console.log(e.children[2].children[0]); // e.children[2].style.display = 'table';
-
-        e.children[3].classList.add('show__table');
+        e.children[3].classList.add('show__sections');
         toggle = true;
       } else {
         e.children[1].style.paddingBottom = '0px';
-        e.style.color = '#505050';
+        e.children[0].classList.remove('list-i-active');
         e.children[2].style.transform = 'rotate(0deg)';
-        e.children[3].classList.remove('show__table'); // e.children[2].style.display = 'none';
-
+        e.children[3].classList.remove('show__sections');
         toggle = false;
       }
     });
