@@ -18946,7 +18946,7 @@ ul {
   left: -12px;
 }
 
-.header .header-navigation .container .header-navigation__section .navigation .active-point-primary.active-point:before {
+.header .header-navigation .container .header-navigation__section .navigation .active-point-red.active-point:before {
   background-color: #ec441c;
 }
 
@@ -19042,10 +19042,6 @@ ul {
   padding: 0 15px;
 }
 
-.header .header-navigation .container .header-navigation__section .mobile-navigation .link-red {
-  color: #d90416;
-}
-
 .header .header-navigation .container .header-navigation__section .mobile-navigation a {
   border-bottom: 1px solid #e1e1e1;
   opacity: 0.85;
@@ -19055,6 +19051,28 @@ ul {
   font-size: 17px;
   font-family: "Roboto-Medium";
   color: #505050;
+}
+
+.header .header-navigation .container .header-navigation__section .mobile-navigation .mob-link {
+  position: relative;
+  padding-left: 10px;
+}
+
+.header .header-navigation .container .header-navigation__section .mobile-navigation .mob-active-point::before {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #505050;
+  opacity: 0.6;
+  top: 23px;
+  position: absolute;
+  left: -3px;
+}
+
+.header .header-navigation .container .header-navigation__section .mobile-navigation .active-point-red.mob-active-point:before {
+  background-color: #ec441c;
 }
 
 .header .header-navigation .container .header-navigation__section .mobile-navigation .mobile-social {

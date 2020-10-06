@@ -359,17 +359,29 @@ var link = document.URL;
 var a = document.querySelectorAll('.navigation__link');
 
 for (var i = 0; i < a.length; i++) {
-  var b = a[i].getAttribute('href');
-
   if (a[i].href == link) {
     console.log(a[4].href);
 
     if (i == 3) {
-      a[i].classList.add('active-point-primary');
+      a[i].classList.add('active-point-red');
     }
 
     a[i].classList.add('active-point');
     a[i].style.opacity = '0.7';
+  }
+}
+
+var link_mobil = document.querySelectorAll('.mob-link');
+
+for (var _i = 0; _i < link_mobil.length; _i++) {
+  if (link_mobil[_i].href == link) {
+    if (_i == 3) {
+      link_mobil[_i].classList.add('active-point-red');
+    }
+
+    link_mobil[_i].classList.add('mob-active-point');
+
+    link_mobil[_i].style.opacity = '0.7';
   }
 }
 
