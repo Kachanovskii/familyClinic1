@@ -19058,6 +19058,10 @@ ul {
   padding-left: 10px;
 }
 
+.header .header-navigation .container .header-navigation__section .mobile-navigation .mob-link-red {
+  color: #ec441c;
+}
+
 .header .header-navigation .container .header-navigation__section .mobile-navigation .mob-active-point::before {
   content: '';
   display: block;
@@ -20129,47 +20133,50 @@ body {
   line-height: 1.2;
 }
 
-.container-fluid .promo {
-  padding: 60px 0;
+.container-fluid.promo-content {
   background: #fcfcfc;
 }
 
-.container-fluid .promo .container {
+.container-fluid.promo-content .promo {
+  padding: 60px 0;
+}
+
+.container-fluid.promo-content .promo .container {
   padding: 0;
 }
 
-.container-fluid .promo .container .promo-heading {
+.container-fluid.promo-content .promo .container .promo-heading {
   text-align: center;
   margin: 0 0 40px 0;
 }
 
-.container-fluid .promo .container .promo-heading h2 {
+.container-fluid.promo-content .promo .container .promo-heading h2 {
   font-size: 28px;
   font-family: "Roboto-Medium";
   color: #f06b4b;
 }
 
-.container-fluid .promo .container .promo-heading h2::after {
-  content: '';
+.container-fluid.promo-content .promo .container .promo-heading h2::after {
+  content: "";
   display: block;
   width: 150px;
   position: relative;
   bottom: -6px;
 }
 
-.container-fluid .promo .container .promo-heading h3 {
+.container-fluid.promo-content .promo .container .promo-heading h3 {
   padding-top: 10px;
   font-size: 20px;
   font-family: "Roboto-Light";
   color: #767676;
 }
 
-.container-fluid .promo .container .promo-heading h3 strong {
+.container-fluid.promo-content .promo .container .promo-heading h3 strong {
   font-size: 21.5px;
   font-family: "Roboto-Medium";
 }
 
-.container-fluid .promo .container .promo-heading a {
+.container-fluid.promo-content .promo .container .promo-heading a {
   padding-top: 12px;
   display: block;
   font-size: 16px;
@@ -20177,26 +20184,26 @@ body {
   color: #0395ae;
 }
 
-.container-fluid .promo .container .promo-heading a i {
+.container-fluid.promo-content .promo .container .promo-heading a i {
   padding-left: 5px;
   font-size: 11px;
 }
 
-.container-fluid .promo .container .promo-heading a:hover {
+.container-fluid.promo-content .promo .container .promo-heading a:hover {
   text-decoration: underline;
 }
 
-.container-fluid .promo .container .promo-content p {
+.container-fluid.promo-content .promo .container .promo-content p {
   font-size: 15px;
   font-family: "Roboto-Regular";
   color: #505050;
 }
 
-.container-fluid .promo .container .promo-content .cards-container {
+.container-fluid.promo-content .promo .container .promo-content .cards-container {
   display: inline-block;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card {
   width: calc((100% - 50px) / 3);
   float: left;
   margin-bottom: 25px;
@@ -20207,18 +20214,18 @@ body {
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.12);
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card:nth-child(3n) {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card:nth-child(3n) {
   margin-right: 0;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-header {
   background-size: cover;
   filter: contrast(130%);
   height: 180px;
   position: relative;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-header .filter {
   padding: 20px 100px 20px 20px;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -20228,30 +20235,30 @@ body {
   bottom: 0;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading h5 {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading h5 {
   font-size: 20px;
   font-family: "Roboto-Medium";
   color: #fff;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading p {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading p {
   font-size: 14px;
   font-family: "Roboto-Regular";
   color: #fff;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card .card-info {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-info {
   padding: 20px 20px 17px 20px;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card .card-info p {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-info p {
   font-size: 14px;
   font-family: "Roboto-Regular";
   color: #505050;
@@ -20259,7 +20266,7 @@ body {
   margin-bottom: 15px;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card .card-info a {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-info a {
   font-size: 14px;
   font-family: "Roboto-Medium";
   color: #fff;
@@ -20270,54 +20277,58 @@ body {
   width: min-content;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-1 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-1 .card-header {
   background: url(../img/promotions/1.jpg) no-repeat;
   background-size: cover;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-2 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-2 .card-header {
   background: url(../img/promotions/2.jpg) no-repeat;
   background-size: cover;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-3 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-3 .card-header {
   background: url(../img/promotions/3.jpg) no-repeat;
   background-size: cover;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-4 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-4 .card-header {
   background: url(../img/promotions/4.jpg) no-repeat;
   background-size: cover;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-5 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-5 .card-header {
   background: url(../img/promotions/5.jpg) no-repeat;
   background-size: cover;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-6 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-6 .card-header {
   background: url(../img/promotions/6.jpg) no-repeat;
   background-size: cover;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-7 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-7 .card-header {
   background: url(../img/promotions/7.jpg) no-repeat;
   background-size: cover;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-8 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-8 .card-header {
   background: url(../img/promotions/8.jpg) no-repeat;
   background-size: cover;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-9 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-9 .card-header {
   background: url(../img/promotions/9.jpg) no-repeat;
   background-size: cover;
 }
 
-.container-fluid .promo .container .promo-content .cards-container .p-card-10 .card-header {
+.container-fluid.promo-content .promo .container .promo-content .cards-container .p-card-10 .card-header {
   background: url(../img/promotions/10.jpg) no-repeat;
   background-size: cover;
+}
+
+.ourAdvantages {
+  background-color: #fff;
 }
 
 .ourAdvantages .container-fluid {
@@ -20415,6 +20426,10 @@ body {
   visibility: visible;
 }
 
+.scroll-hidden {
+  overflow: hidden;
+}
+
 .popupWindowAppointment .appointment__content__head_text {
   padding-bottom: 45px;
   font-size: 25px;
@@ -20447,7 +20462,7 @@ body {
   font-size: 13px;
   font-family: "Roboto-Regular";
   color: #fff;
-  background-color: rgba(80, 80, 80, 0.03);
+  background-color: rgba(255, 255, 255, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.4);
   transition: 0.3s border;
   cursor: pointer;
@@ -20505,7 +20520,7 @@ body {
   width: 100%;
   position: relative;
   z-index: 100;
-  background-color: rgba(80, 80, 80, 0.03);
+  background-color: rgba(255, 255, 255, 0.25);
   font-size: 13px;
   font-family: "Roboto-Regular";
   color: #fff;
@@ -20692,6 +20707,7 @@ body {
   height: 100%;
   z-index: 9999;
   opacity: 0;
+  background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: saturate(180%) blur(15px);
   visibility: hidden;
   backface-visibility: hidden;
@@ -21116,23 +21132,23 @@ body {
   visibility: visible;
 }
 
-.promotions {
-  padding: 60px 0;
+.promotions-content {
+  padding: 60px 0 0 0;
   background: linear-gradient(180deg, #fcfcfc, #fcfcfc, #fcfcfc, #efefef);
 }
 
-.promotions .container .promotions-heading {
+.promotions-content .container .promotions-heading {
   text-align: center;
   margin: 0 0 40px 0;
 }
 
-.promotions .container .promotions-heading h2 {
+.promotions-content .container .promotions-heading h2 {
   font-size: 28px;
   font-family: "Roboto-Medium";
   color: #f06b4b;
 }
 
-.promotions .container .promotions-heading h2::after {
+.promotions-content .container .promotions-heading h2::after {
   content: "";
   display: block;
   width: 150px;
@@ -21140,19 +21156,19 @@ body {
   bottom: -6px;
 }
 
-.promotions .container .promotions-heading h3 {
+.promotions-content .container .promotions-heading h3 {
   padding-top: 10px;
   font-size: 20px;
   font-family: "Roboto-Light";
   color: #767676;
 }
 
-.promotions .container .promotions-heading h3 strong {
+.promotions-content .container .promotions-heading h3 strong {
   font-size: 21.5px;
   font-family: "Roboto-Medium";
 }
 
-.promotions .container .promotions-heading a {
+.promotions-content .container .promotions-heading a {
   padding-top: 12px;
   display: block;
   font-size: 16px;
@@ -21160,35 +21176,35 @@ body {
   color: #0395ae;
 }
 
-.promotions .container .promotions-heading a i {
+.promotions-content .container .promotions-heading a i {
   padding-left: 5px;
   font-size: 11px;
 }
 
-.promotions .container .promotions-heading a:hover {
+.promotions-content .container .promotions-heading a:hover {
   text-decoration: underline;
 }
 
-.promotions .container .promo-content p {
+.promotions-content .container .promo-content p {
   font-size: 15px;
   font-family: "Roboto-Regular";
   color: #505050;
 }
 
-.promotions .container .promo-content .cards-container .p-card {
+.promotions-content .container .promo-content .cards-container .p-card {
   border-radius: 8px;
   background: #fff;
   overflow: hidden;
 }
 
-.promotions .container .promo-content .cards-container .p-card .card-header {
+.promotions-content .container .promo-content .cards-container .p-card .card-header {
   background-size: cover;
   filter: contrast(130%);
   height: 180px;
   position: relative;
 }
 
-.promotions .container .promo-content .cards-container .p-card .card-header .filter {
+.promotions-content .container .promo-content .cards-container .p-card .card-header .filter {
   padding: 20px 100px 20px 20px;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -21198,31 +21214,31 @@ body {
   bottom: 0;
 }
 
-.promotions .container .promo-content .cards-container .p-card .card-header .filter .card-heading {
+.promotions-content .container .promo-content .cards-container .p-card .card-header .filter .card-heading {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.promotions .container .promo-content .cards-container .p-card .card-header .filter .card-heading h5 {
+.promotions-content .container .promo-content .cards-container .p-card .card-header .filter .card-heading h5 {
   font-size: 20px;
   font-family: "Roboto-Medium";
   color: #fff;
 }
 
-.promotions .container .promo-content .cards-container .p-card .card-header .filter .card-heading p {
+.promotions-content .container .promo-content .cards-container .p-card .card-header .filter .card-heading p {
   font-size: 14px;
   font-family: "Roboto-Regular";
   color: #fff;
 }
 
-.promotions .container .promo-content .cards-container .p-card .card-info {
+.promotions-content .container .promo-content .cards-container .p-card .card-info {
   padding: 20px 20px 17px 20px;
   display: none;
 }
 
-.promotions .container .promo-content .cards-container .p-card .card-info p {
+.promotions-content .container .promo-content .cards-container .p-card .card-info p {
   font-size: 14px;
   font-family: "Roboto-Regular";
   color: #505050;
@@ -21230,7 +21246,7 @@ body {
   margin-bottom: 15px;
 }
 
-.promotions .container .promo-content .cards-container .p-card .card-info a {
+.promotions-content .container .promo-content .cards-container .p-card .card-info a {
   font-size: 14px;
   font-family: "Roboto-Medium";
   color: #fff;
@@ -21241,52 +21257,52 @@ body {
   width: min-content;
 }
 
-.promotions .container .promo-content .cards-container .p-card-1 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-1 .card-header {
   background: url(../img/promotions/1.jpg) no-repeat;
   background-size: cover;
 }
 
-.promotions .container .promo-content .cards-container .p-card-2 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-2 .card-header {
   background: url(../img/promotions/2.jpg) no-repeat;
   background-size: cover;
 }
 
-.promotions .container .promo-content .cards-container .p-card-3 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-3 .card-header {
   background: url(../img/promotions/3.jpg) no-repeat;
   background-size: cover;
 }
 
-.promotions .container .promo-content .cards-container .p-card-4 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-4 .card-header {
   background: url(../img/promotions/4.jpg) no-repeat;
   background-size: cover;
 }
 
-.promotions .container .promo-content .cards-container .p-card-5 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-5 .card-header {
   background: url(../img/promotions/5.jpg) no-repeat;
   background-size: cover;
 }
 
-.promotions .container .promo-content .cards-container .p-card-6 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-6 .card-header {
   background: url(../img/promotions/6.jpg) no-repeat;
   background-size: cover;
 }
 
-.promotions .container .promo-content .cards-container .p-card-7 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-7 .card-header {
   background: url(../img/promotions/7.jpg) no-repeat;
   background-size: cover;
 }
 
-.promotions .container .promo-content .cards-container .p-card-8 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-8 .card-header {
   background: url(../img/promotions/8.jpg) no-repeat;
   background-size: cover;
 }
 
-.promotions .container .promo-content .cards-container .p-card-9 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-9 .card-header {
   background: url(../img/promotions/9.jpg) no-repeat;
   background-size: cover;
 }
 
-.promotions .container .promo-content .cards-container .p-card-10 .card-header {
+.promotions-content .container .promo-content .cards-container .p-card-10 .card-header {
   background: url(../img/promotions/10.jpg) no-repeat;
   background-size: cover;
 }
@@ -21550,13 +21566,13 @@ body {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   height: 100%;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 0 0 8px 0;
 }
 
 .mainContact .mainContact__content .container-fluid .container .row .mainContact__content-address .content-address__main {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   border-left: 3px solid #04aac7;
-  border-radius: 8px;
+  border-radius: 0 8px 8px 0;
   padding: 20px 0 10px 42px;
   background-color: #fff;
 }
@@ -21591,7 +21607,7 @@ body {
 
 .mainContact .mainContact__content .container-fluid .container .row .mainContact__content-map iframe {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 0 0 0 8px;
   height: 0;
   max-height: 100%;
   max-width: 100%;
@@ -21608,7 +21624,6 @@ body {
 .mainContact .write-to-us .container-fluid .container {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
-  border-radius: 8px;
   border-right: 3px solid #04aac7;
   background-color: #fff;
 }
@@ -21670,6 +21685,7 @@ body {
 }
 
 .mainContact .write-to-us .container-fluid form .write-to-us__box_textarea textarea {
+  border-radius: 8px;
   font-size: 16px;
   font-family: "Roboto-Light";
   color: #505050;
@@ -21722,7 +21738,7 @@ body {
 .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__text-img .box-img {
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
   font-size: 0;
-  border-radius: 8px;
+  border-radius: 0 0 8px 0;
   overflow: hidden;
 }
 
@@ -21734,7 +21750,7 @@ body {
 
 .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__text-img .box-text {
   display: block;
-  border-radius: 8px;
+  border-radius: 0 8px 8px 0;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   padding: 45px;
   position: relative;
@@ -21759,7 +21775,7 @@ body {
   line-height: 26px;
   padding-bottom: 20px;
   padding-left: 30px;
-  border-left: 2px solid #eee;
+  border-left: 3px solid #eee;
 }
 
 .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__text-img .slider__photos-clinic {
@@ -21775,7 +21791,6 @@ body {
 }
 
 .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__text-img .slider__photos-clinic .slider__photo img {
-  border-radius: 8px;
   display: block;
   margin: 0 auto;
   width: 100%;
@@ -21881,29 +21896,32 @@ body {
 }
 
 .doctorDetails .doctorDetails__content {
-  padding: 60px;
+  padding: 60px 0 50px 0;
   background-color: #f8f9fc;
 }
 
+.doctorDetails .doctorDetails__content .container-fluid .container {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+}
+
 .doctorDetails .doctorDetails__content .container-fluid .container .row .box-photo {
+  border-radius: 8px 0 0 0;
   font-size: 0;
-  padding: 0 30px 30px 0;
+  padding: 40px;
+  background-color: #fff;
 }
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row .box-photo img {
   border-radius: 8px;
-  box-shadow: 0px 10px 20px #dce4e6;
   width: 100%;
   height: 100%;
 }
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor {
-  margin-bottom: 30px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  border-right: 3px solid #04aac7;
-  border-radius: 8px;
+  border-radius: 0 8px 0 0;
   background-color: #fff;
-  padding: 0 20px;
 }
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .doctor__text-head {
@@ -21939,13 +21957,11 @@ body {
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .details-info .box-img {
   margin-right: 10px;
-  width: 20px;
-  height: 20px;
 }
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .details-info .box-img img {
-  width: 100%;
-  height: 100%;
+  width: 20px;
+  height: 20px;
 }
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .details-info li {
@@ -21966,9 +21982,7 @@ body {
 }
 
 .doctorDetails .doctorDetails__content .container-fluid .container .row:nth-of-type(2) {
-  border-radius: 8px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  border-left: 3px solid #04aac7;
+  border-top: 1px solid #eee;
   background-color: #fff;
   justify-content: center;
 }
@@ -21994,6 +22008,423 @@ body {
   padding-top: 10px;
   line-height: 24px;
   padding-left: 15px;
+}
+
+.doctorDetails .slider-certificates {
+  padding: 30px 0;
+  background-color: #04aac7;
+}
+
+.doctorDetails .slider-certificates .container-fluid .container {
+  padding: 0;
+}
+
+.doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .content__head-text {
+  padding: 0;
+  margin: 0 0 40px 0;
+  font-size: 28px;
+  font-family: "Roboto-Medium";
+  color: #fff;
+}
+
+.doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .content__head-text h5::after {
+  content: "";
+  display: block;
+  width: 150px;
+  border-bottom: 2px solid;
+  position: relative;
+  bottom: -6px;
+}
+
+.doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .certificates-carousel .item {
+  height: 120px;
+  width: 170px;
+  transition: all 0.3s;
+}
+
+.doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .certificates-carousel .item img {
+  cursor: pointer;
+}
+
+.doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .certificates-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+}
+
+.doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .certificates-carousel .owl-nav {
+  position: absolute;
+  top: -80px;
+  right: 0;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .certificates-carousel .owl-nav button {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20px;
+  color: #fff;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .certificates-carousel .owl-nav button span {
+  margin: 0 auto;
+  font-size: 30px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+}
+
+.doctorDetails .slider-certificates .close-modal {
+  color: #505050;
+  position: absolute;
+  cursor: pointer;
+  top: -5px;
+  right: -50px;
+  opacity: 0;
+  backface-visibility: hidden;
+  transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition-delay: 0.3s;
+  font-size: 30px;
+  text-align: center;
+}
+
+.doctorDetails .slider-certificates .certificate__modal-content {
+  margin: 0 auto;
+  opacity: 0;
+  backface-visibility: hidden;
+  transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition-delay: 0.3s;
+  position: relative;
+  max-height: 80vh;
+}
+
+.doctorDetails .slider-certificates .certificate__modal-content img {
+  display: block;
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.doctorDetails .slider-certificates .activeModal {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.doctorDetails .slider-certificates .activeModal .certificate__modal-content {
+  opacity: 1;
+}
+
+.doctorDetails .slider-certificates .activeModal .close-modal {
+  transform: translateY(10px);
+  opacity: 1;
+}
+
+.doctorDetails .slider-certificates .modal-overlay__certificate {
+  padding: 0 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  backface-visibility: hidden;
+  transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  backdrop-filter: saturate(180%) blur(15px);
+}
+
+.doctorDetails .slider-certificates .modal-overlay__certificate.activeModal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.doctorDetails .doctorDetails__reviews {
+  background-color: #f8f9fc;
+  padding: 50px 0 30px 0;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container {
+  padding: 0;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__head-text {
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-family: "Roboto-Medium";
+  color: #04aac7;
+  text-align: center;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  padding: 30px 0;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item {
+  padding: 0 30px 0 30px;
+  width: 50%;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item:nth-of-type(odd) {
+  padding-left: 0;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item:nth-of-type(even) {
+  margin-top: 50px;
+  padding-right: 0;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review_text {
+  position: relative;
+  font-size: 16px;
+  font-family: "Roboto-Light";
+  color: #505050;
+  line-height: 1.2;
+  padding: 30px 25px 25px 25px;
+  margin-left: 70px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review_text::after,
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review_text::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 100%;
+  bottom: 0.25em;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background: #f8f9fc;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review_text::before {
+  border-top: none;
+  height: 0.9em;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background-color: #fff;
+  border-color: #04aac7;
+  margin-right: -1.1em;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content {
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content .review__user_box {
+  display: flex;
+  align-items: center;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content .review__user_box .user__img-box {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content .review__user_box .user__img-box img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content .review__user_box .user__name {
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #04aac7;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content .review__rating_box {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content .review__rating_box .review__rating {
+  margin-bottom: 10px;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content .review__rating_box .review__rating i {
+  color: #04aac7;
+}
+
+.doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content .review__rating_box .review-date {
+  text-align: right;
+  font-size: 12px;
+  font-family: "Roboto-Regular";
+  color: #858585;
+}
+
+.doctorDetails .doctorDetails__form-reviews {
+  background: linear-gradient(0deg, #04aac7, #00cec8);
+  padding: 50px 0;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container {
+  padding: 0;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .head-text {
+  margin: 0 0 40px 0;
+  font-size: 28px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+  line-height: 1.2;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .authorization-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .authorization-box a {
+  background-color: #eee;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .authorization-box a i {
+  font-size: 30px;
+  color: #04aac7;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .authorization-box a:hover {
+  background-color: rgba(12, 68, 89, 0.8);
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .authorization-box a:hover i {
+  color: #eee;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row {
+  justify-content: center;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content {
+  opacity: 0.4;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content:hover {
+  opacity: 1;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form textarea,
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form input[type="text"],
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form input[type="button"],
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form input[type="submit"],
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form input[type="email"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section {
+  border-radius: 8px 8px 0 0;
+  background-color: rgba(12, 68, 89, 0.8);
+  padding: 15px 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .user_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .user_info .user_info__box-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .user_info .user_name {
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .review__rating-container .review-text {
+  font-size: 13px;
+  font-family: "Roboto-Light";
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 5px;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .review__rating-container .review__rating-box {
+  right: 20px;
+  bottom: 20px;
+  color: #fff;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form label {
+  display: block;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form label textarea {
+  border-radius: 0 0 8px 8px;
+  font-size: 16px;
+  font-family: "Roboto-Light";
+  color: #505050;
+  border: 1px solid rgba(80, 80, 80, 0.2);
+  width: 100%;
+  height: calc(100% - 29px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  line-height: 18px;
+  padding: 14px 15px 12px;
+  outline: none;
+  resize: none;
+  background-color: #f8f9fc;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__button input {
+  padding: 11px 20px;
+  background-color: rgba(12, 68, 89, 0.8);
+  border: none;
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+  transition: 0.3s all;
+  cursor: pointer;
+  outline: none;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__button input:hover {
+  background-color: rgba(12, 68, 89, 0.6);
 }
 
 .questions .container-fluid {
@@ -22119,6 +22550,693 @@ body {
   height: auto;
   max-height: 1000px;
   min-height: 18px;
+}
+
+.mainReviews .mainReviews__content .container-fluid {
+  background-color: #f8f9fc;
+  padding: 60px 15px 40px 15px;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__head a {
+  padding: 11px 20px;
+  background-color: rgba(12, 68, 89, 0.8);
+  border: none;
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+  transition: 0.3s all;
+  cursor: pointer;
+  outline: none;
+  border-radius: 6px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__head a:hover {
+  background-color: #0c4459;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item {
+  border: 1px solid #eee;
+  background: linear-gradient(70deg, #fff, rgba(238, 238, 238, 0.1));
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 10px 30px;
+  transition: 0.3s;
+  border-radius: 15px;
+  cursor: pointer;
+  width: calc((100% - 50px) / 3);
+  float: left;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item:hover {
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__doctor {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto-Light";
+  color: #04aac7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__doctor .review__doctor__box-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-image: url("../img/ourDoctors4.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__doctor .review__doctor__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__doctor .review__doctor__content a {
+  font-size: 17px;
+  font-family: "Roboto-Regular";
+  color: #505050;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__doctor .review__doctor__content a:hover {
+  color: #04aac7;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__doctor .review__doctor__content span {
+  font-size: 14px;
+  font-family: "Roboto-Regular";
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  line-height: 16px;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content .review__customer__info {
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #04aac7;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content .review__customer__info .review__customer__box-img {
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("../img/customer-girl.jpg");
+  background-position: -5px;
+  background-size: auto 50px;
+  position: relative;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content .review__customer__info .review__customer__box-img i {
+  position: absolute;
+  font-size: 18px;
+  background-color: #fcfcfc;
+  right: -15px;
+  top: -5px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content .review__customer__star {
+  align-self: flex-end;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content .review__customer__star i {
+  color: #04aac7;
+  font-size: 13px;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content .review__customer__text {
+  font-size: 15px;
+  font-family: "Roboto-Light";
+  color: #505050;
+  line-height: 18px;
+  padding: 10px 0 0 0;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content .review__customer__text p a {
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Roboto-Light";
+  color: #04aac7;
+  display: block;
+  width: 150px;
+  transition: 0.3s all;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content .review__customer__text p a:hover {
+  text-decoration: underline;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer .review__customer__content .review__customer__data {
+  text-align: right;
+  font-size: 12px;
+  font-family: "Roboto-Light";
+  color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item:nth-of-type(2) .review__doctor__box-img {
+  background-image: url("../img/ourDoctors2.jpg");
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item:nth-of-type(2) .review__customer
+.review__customer__content
+.review__customer__info
+.review__customer__box-img {
+  background-image: url("../img/customer-girl-2.jpg");
+  background-position: center;
+  background-size: auto 50px;
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item:nth-of-type(3) .review__doctor__box-img {
+  background-image: url("../img/ourDoctors3.jpg");
+}
+
+.mainReviews .mainReviews__content .container-fluid .container .review__content .review__item:nth-of-type(3) .review__customer
+.review__customer__content
+.review__customer__info
+.review__customer__box-img {
+  background-image: url("../img/customer-men.jpeg");
+  background-position: 0 0;
+  background-size: auto 100px;
+}
+
+.mainReviews .mainReviews__form-reviews {
+  background: linear-gradient(0deg, #04aac7, #00cec8);
+  padding: 50px 0;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container {
+  padding: 0;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .head-text {
+  margin: 0 0 40px 0;
+  font-size: 28px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+  line-height: 1.2;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .authorization-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .authorization-box a {
+  background-color: #eee;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .authorization-box a i {
+  font-size: 30px;
+  color: #04aac7;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .authorization-box a:hover {
+  background-color: rgba(12, 68, 89, 0.8);
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .authorization-box a:hover i {
+  color: #eee;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row {
+  justify-content: center;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content {
+  opacity: 0.4;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content:hover {
+  opacity: 1;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form textarea,
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form input[type="text"],
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form input[type="button"],
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form input[type="submit"],
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form input[type="email"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section {
+  border-radius: 8px 8px 0 0;
+  background-color: rgba(12, 68, 89, 0.8);
+  padding: 15px 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .user_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .user_info .user_info__box-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .user_info .user_name {
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .review__rating-container .review-text {
+  font-size: 13px;
+  font-family: "Roboto-Light";
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 5px;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section .review__rating-container .review__rating-box {
+  right: 20px;
+  bottom: 20px;
+  color: #fff;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label {
+  position: relative;
+  display: block;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label textarea {
+  border-radius: 0 0 8px 8px;
+  font-size: 16px;
+  font-family: "Roboto-Light";
+  color: #505050;
+  border: 1px solid rgba(80, 80, 80, 0.2);
+  width: 100%;
+  height: calc(100% - 29px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  line-height: 18px;
+  padding: 14px 15px 12px;
+  outline: none;
+  resize: none;
+  background-color: #f8f9fc;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select {
+  position: absolute;
+  margin-bottom: 15px;
+  bottom: -13px;
+  right: 0;
+  width: 250px;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select {
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  background-color: rgba(12, 68, 89, 0.93);
+  font-size: 13px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+  border-radius: 8px 0 8px 0;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select.open .select__dropdown {
+  display: block;
+  font-size: 12px;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select.open .select__input {
+  border-bottom: none;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select.open .select__backdrop {
+  display: block;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select__input:first-of-type {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select__input {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: 0.3s border;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select__dropdown {
+  display: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select__backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: transparent;
+  z-index: -1;
+  display: none;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select__item:first-of-type {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select__item {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #0e4d64;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select__item.selected {
+  background-color: #fff;
+  color: #0c4459;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select .select__item:hover {
+  background-color: #fff;
+  color: #0c4459;
+  cursor: pointer;
+  transition: 0.15s background-color ease-in;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__button input {
+  padding: 11px 20px;
+  background-color: rgba(12, 68, 89, 0.8);
+  border: none;
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #fff;
+  transition: 0.3s all;
+  cursor: pointer;
+  outline: none;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__button input:hover {
+  background-color: rgba(12, 68, 89, 0.5);
+}
+
+.container-fluid {
+  background-color: #fcfcfc;
+}
+
+.container-fluid .direction-information .container {
+  padding: 0;
+}
+
+.container-fluid .direction-information .container .direction-content {
+  display: flex;
+}
+
+.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar {
+  box-shadow: 0 0 5px 2px rgba(12, 68, 89, 0.1);
+  background-color: #f8f9fc;
+  position: relative;
+  padding-top: 15px;
+}
+
+.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content {
+  transition: 0.3s all;
+  position: sticky;
+  top: 110px;
+  padding-bottom: 30px;
+}
+
+.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: 0.3s color;
+  border-bottom: 1px solid rgba(4, 170, 199, 0.15);
+}
+
+.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content li:hover a {
+  color: #04aac7;
+}
+
+.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content .box-img {
+  width: 30px;
+  height: 30px;
+}
+
+.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content .box-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content a {
+  padding: 5px 0 5px 8px;
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #505050;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text {
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  margin: 15px 0 15px 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .direction-heading {
+  margin-bottom: 20px;
+  background: url(../../../img/directions/1.jpg);
+  filter: contrast(110%);
+  background-size: cover;
+  height: 120px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Roboto-Medium";
+  color: #505050;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .direction-heading .heading {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, white, rgba(255, 255, 255, 0.5));
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .direction-description {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .direction-description p {
+  font-size: 14px;
+  font-family: "Roboto-Regular";
+  color: #505050;
+  line-height: 1.5;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .direction-description h4 {
+  font-size: 18px;
+  font-family: "Roboto-Medium";
+  color: #505050;
+  line-height: 1.5;
+  padding: 20px 0;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .direction-description ul li {
+  font-size: 14px;
+  font-family: "Roboto-Regular";
+  color: #505050;
+  padding: 0 15px 7px;
+  position: relative;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .direction-description ul li::before {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  display: block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #04aac7;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .additional-description {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 {
+  background-color: #f2fbfc;
+  width: 50%;
+  padding: 20px 30px;
+  border: 1px solid #d9f2f7;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 .heading {
+  display: flex;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 .heading i {
+  color: #03889f;
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 .heading span {
+  font-size: 22px;
+  font-family: "Roboto-Medium";
+  color: #03889f;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 p {
+  font-size: 12px;
+  font-family: "Roboto-Regular";
+  color: #0499b3;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .price-a {
+  padding: 20px;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .price-a a {
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+  color: #04aac7;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .price-a a i {
+  padding-left: 5px;
+  font-size: 11px;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main h3 {
+  padding-top: 20px;
+  font-size: 22px;
+  font-family: "Roboto-Medium";
+  color: #04aac7;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 15px 20px;
+  width: calc(33.33% - 40px);
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item:hover img {
+  box-shadow: 0px 5px 20px rgba(12, 68, 89, 0.7);
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item:hover .ourDoctors__name {
+  color: #04aac7;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__box-img img {
+  border-radius: 50%;
+  max-width: 220px;
+  height: auto;
+  transition: 0.3s all;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__rating {
+  padding: 10px 0;
+  color: #04aac7;
+  font-size: 13px;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__name {
+  font-size: 18px;
+  font-family: "Roboto-Medium";
+  color: #04aac7;
+  padding-bottom: 8px;
+  transition: 0.3s all;
+}
+
+.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__trade {
+  font-size: 14px;
+  font-family: "Roboto-Medium";
+  color: rgba(80, 80, 80, 0.7);
+  line-height: 1.2;
 }
 
 @media screen and (min-width: 36rem) {
@@ -23929,6 +25047,12 @@ body {
   .ml-md-auto,
   .mx-md-auto {
     margin-left: auto !important;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .certificates-carousel .item:hover {
+    transform: scale(1.1);
   }
 }
 
@@ -25802,6 +26926,10 @@ body {
     max-width: 200px;
   }
 
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .box-photo {
+    padding: 40px 30px 20px 30px;
+  }
+
   .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .doctor__text-head {
     margin-bottom: 0;
     padding: 30px 0;
@@ -25810,18 +26938,35 @@ body {
   .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .details-info .specialization {
     padding-bottom: 20px;
   }
+
+  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content li {
+    line-height: 19px;
+  }
+
+  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content .box-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards {
+    padding: 20px 0;
+  }
+
+  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__box-img img {
+    max-width: 200px;
+  }
 }
 
 @media (max-width: 992.98px) {
-  .container-fluid .promo .container .promo-content .cards-container .p-card {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card {
     width: calc((100% - 25px) / 2);
   }
 
-  .container-fluid .promo .container .promo-content .cards-container .p-card:nth-child(3n) {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card:nth-child(3n) {
     margin-right: 25px;
   }
 
-  .container-fluid .promo .container .promo-content .cards-container .p-card:nth-child(2n) {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card:nth-child(2n) {
     margin-right: 0;
   }
 }
@@ -26009,11 +27154,11 @@ body {
     width: 70%;
   }
 
-  .container-fluid .promo .container .promo-heading h2 {
+  .container-fluid.promo-content .promo .container .promo-heading h2 {
     font-size: 28px;
   }
 
-  .container-fluid .promo .container .promo-heading h3 {
+  .container-fluid.promo-content .promo .container .promo-heading h3 {
     font-size: 18px;
   }
 
@@ -26042,11 +27187,11 @@ body {
     margin-right: 5px;
   }
 
-  .promotions .container .promotions-heading h2 {
+  .promotions-content .container .promotions-heading h2 {
     font-size: 28px;
   }
 
-  .promotions .container .promotions-heading h3 {
+  .promotions-content .container .promotions-heading h3 {
     font-size: 18px;
   }
 
@@ -26092,12 +27237,48 @@ body {
     margin-bottom: 30px;
   }
 
+  .doctorDetails .doctorDetails__content .container-fluid .container {
+    border-radius: 8px;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row {
+    background-color: #fff;
+  }
+
   .doctorDetails .doctorDetails__content .container-fluid .container .row .box-photo {
-    padding: 0;
+    margin: 0 auto;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .box-photo img {
+    border-radius: 50%;
   }
 
   .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor {
-    padding: 0 0 10px 30px;
+    padding: 0;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .doctor__text-head {
+    text-align: center;
+    padding: 20px 30px;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .doctorDetails__rating {
+    text-align: center;
+    padding: 0;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .details-info {
+    padding: 0 40px;
+  }
+
+  .doctorDetails .slider-certificates .close-modal {
+    top: -45px;
+    right: 0;
+    left: 0;
+  }
+
+  .doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item {
+    padding: 0 20px 0 20px;
   }
 
   .questions .container-fluid .container .questions-heading h2 {
@@ -26107,9 +27288,59 @@ body {
   .questions .container-fluid .container .questions-heading h3 {
     font-size: 18px;
   }
+
+  .mainReviews .mainReviews__content .container-fluid .container .review__content {
+    padding: 0 40px;
+  }
+
+  .mainReviews .mainReviews__content .container-fluid .container .review__content .review__item {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 12.5px 0;
+  }
+
+  .mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__doctor {
+    width: 45%;
+  }
+
+  .mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer {
+    width: 55%;
+    padding: 0 20px;
+  }
+
+  .mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select i {
+    margin-right: 5px;
+  }
+
+  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar {
+    padding-top: 20px;
+  }
+
+  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content {
+    padding-bottom: 30px;
+  }
+
+  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content .box-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 {
+    width: 100%;
+  }
+
+  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item {
+    width: calc(50% - 40px);
+  }
 }
 
 @media (max-width: 767.98px) {
+  .breadcrumbs .container-fluid .container .row .breadcrumbs__content i {
+    line-height: 22px;
+  }
+
   .breadcrumbs .container-fluid .container .row .breadcrumbs__content + div .referrals__head-text h3 span {
     display: none;
   }
@@ -26204,43 +27435,43 @@ body {
     margin-top: 20px;
   }
 
-  .container-fluid .promo .container .promo-heading h2 {
+  .container-fluid.promo-content .promo .container .promo-heading h2 {
     width: 100%;
   }
 
-  .container-fluid .promo .container .promo-heading h2 {
+  .container-fluid.promo-content .promo .container .promo-heading h2 {
     font-size: 25px;
   }
 
-  .container-fluid .promo .container .promo-heading h3 {
+  .container-fluid.promo-content .promo .container .promo-heading h3 {
     font-size: 17px;
   }
 
-  .container-fluid .promo .container .promo-content .cards-container .p-card {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card {
     width: 100%;
   }
 
-  .container-fluid .promo .container .promo-content .cards-container .p-card:nth-child(1n) {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card:nth-child(1n) {
     margin-right: 0;
   }
 
-  .container-fluid .promo .container .promo-content .cards-container .p-card .card-header {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-header {
     height: 145px;
   }
 
-  .container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-header .filter {
     padding: 20px 80px 20px 20px;
   }
 
-  .container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading h5 {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading h5 {
     font-size: 18px;
   }
 
-  .container-fluid .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading p {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-header .filter .card-heading p {
     font-size: 12px;
   }
 
-  .container-fluid .promo .container .promo-content .cards-container .p-card .card-info p {
+  .container-fluid.promo-content .promo .container .promo-content .cards-container .p-card .card-info p {
     font-size: 12px;
   }
 
@@ -26270,19 +27501,19 @@ body {
     width: 500px;
   }
 
-  .promotions .container .promotions-heading h2 {
+  .promotions-content .container .promotions-heading h2 {
     width: 100%;
   }
 
-  .promotions .container .promotions-heading h2 {
+  .promotions-content .container .promotions-heading h2 {
     font-size: 25px;
   }
 
-  .promotions .container .promotions-heading h3 {
+  .promotions-content .container .promotions-heading h3 {
     font-size: 17px;
   }
 
-  .promotions .container .promo-content .cards-container .p-card .card-header .filter {
+  .promotions-content .container .promo-content .cards-container .p-card .card-header .filter {
     padding-right: 70px;
   }
 
@@ -26351,7 +27582,7 @@ body {
   }
 
   .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__text-img .box-text {
-    padding: 30px;
+    padding: 25px;
   }
 
   .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__text-img .box-text p {
@@ -26368,6 +27599,43 @@ body {
 
   .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__reviewsOfDoctors .mainAboutUs__reviewsOfDoctors_content .reviewsOfDoctors .container-fluid .container {
     padding: 0;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .doctor__text-head {
+    padding-top: 10px;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .details-info {
+    line-height: 22px;
+  }
+
+  .doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content {
+    padding: 30px 0 0 0;
+  }
+
+  .doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item {
+    width: 100%;
+  }
+
+  .doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item:nth-of-type(odd) {
+    padding-right: 0;
+  }
+
+  .doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item:nth-of-type(even) {
+    padding-bottom: 50px;
+    padding-left: 100px;
+  }
+
+  .doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review_text {
+    margin-left: 65px;
+  }
+
+  .doctorDetails .doctorDetails__form-reviews .container-fluid .container .head-text {
+    font-size: 25px;
+  }
+
+  .doctorDetails .doctorDetails__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section {
+    padding: 15px 15px 0 15px;
   }
 
   .questions .container-fluid .container .questions-heading h2 {
@@ -26388,6 +27656,34 @@ body {
 
   .questions .container-fluid .container .questions-content .questions-sections .questions-sections__item .questions-text {
     font-size: 14px;
+  }
+
+  .mainReviews .mainReviews__content .container-fluid .container .review__content {
+    padding: 0 15px;
+  }
+
+  .mainReviews .mainReviews__form-reviews .container-fluid .container .head-text {
+    font-size: 25px;
+  }
+
+  .mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form .form-reviews__top-section {
+    padding: 15px 15px 0 15px;
+  }
+
+  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar {
+    display: none;
+  }
+
+  .container-fluid .direction-information .container .direction-content .direction-text {
+    margin: 15px 0;
+  }
+
+  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards {
+    padding: 0 0 20px 0;
+  }
+
+  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__box-img {
+    margin-top: 20px;
   }
 }
 
@@ -26435,6 +27731,18 @@ body {
 
   .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__heading {
     padding: 15px 15px;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__p {
+    display: none;
+  }
+
+  .directionsOfWork .container-fluid .container .directionsOfWork__content .directionsOfWork__card .card__info .card__heading {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 14px;
+    font-family: "Roboto-Medium";
+    color: #505050;
   }
 
   .reviewsOfDoctors .container-fluid .container .review__head .reviews__head_text {
@@ -26508,10 +27816,55 @@ body {
   .mainAboutUs .container-fluid:nth-of-type(2) .container .mainAboutUs__content .mainAboutUs__text-img .slider__photos-clinic {
     padding: 20px 0 0 0;
   }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .box-photo {
+    padding: 35px 25px 20px 25px;
+  }
+
+  .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .details-info {
+    padding: 0 30px;
+  }
+
+  .doctorDetails .slider-certificates .container-fluid .container .slider-certificates__content .content__head-text h5 {
+    margin-bottom: 85px;
+  }
+
+  .doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item:nth-of-type(even) {
+    padding-left: 0;
+  }
+
+  .doctorDetails .doctorDetails__reviews .container-fluid .container .doctorDetails__reviews__content .doctorDetails__review_item .review__user-content {
+    padding-right: 0;
+  }
+
+  .mainReviews .mainReviews__content .container-fluid .container .review__content {
+    padding: 0 5px;
+  }
+
+  .mainReviews .mainReviews__content .container-fluid .container .review__content .review__item {
+    flex-direction: column;
+  }
+
+  .mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__doctor {
+    width: 100%;
+  }
+
+  .mainReviews .mainReviews__content .container-fluid .container .review__content .review__item .review__customer {
+    width: 100%;
+    padding: 0;
+  }
+
+  .mainReviews .mainReviews__form-reviews .container-fluid .container .row .form-reviews__content form label .custom-select {
+    width: 220px;
+  }
 }
 
 @media (max-width: 466px) {
   .mainDoctorsAndReferrals .container-fluid .container .mainDoctorsAndReferrals__cartsOfDoctors .ourDoctors__main .ourDoctors__cards .ourDoctors__item {
+    width: calc(100% - 40px);
+  }
+
+  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item {
     width: calc(100% - 40px);
   }
 }
