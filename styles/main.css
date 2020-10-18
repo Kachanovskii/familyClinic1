@@ -23065,7 +23065,7 @@ body {
 
 .container-fluid .direction-information .container .direction-content .direction-text .direction-heading {
   margin-bottom: 20px;
-  background: url(../../../img/directions/1.jpg);
+  background: url(../img/directions/1.jpg);
   filter: contrast(110%);
   background-size: cover;
   height: 120px;
