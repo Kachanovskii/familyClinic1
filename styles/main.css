@@ -22998,77 +22998,24 @@ body {
   background-color: rgba(12, 68, 89, 0.5);
 }
 
-.container-fluid {
-  background-color: #fcfcfc;
-}
-
-.container-fluid .direction-information .container {
-  padding: 0;
-}
-
-.container-fluid .direction-information .container .direction-content {
+.direction-content {
   display: flex;
 }
 
-.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar {
-  box-shadow: 0 0 5px 2px rgba(12, 68, 89, 0.1);
-  background-color: #f8f9fc;
-  position: relative;
-  padding-top: 15px;
-}
-
-.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content {
-  transition: 0.3s all;
-  position: sticky;
-  top: 110px;
-  padding-bottom: 30px;
-}
-
-.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content li {
-  display: flex;
-  align-items: center;
-  padding: 5px 0;
-  cursor: pointer;
-  transition: 0.3s color;
-  border-bottom: 1px solid rgba(4, 170, 199, 0.15);
-}
-
-.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content li:hover a {
-  color: #04aac7;
-}
-
-.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content .box-img {
-  width: 30px;
-  height: 30px;
-}
-
-.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content .box-img img {
-  height: 100%;
-  width: 100%;
-}
-
-.container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content a {
-  padding: 5px 0 5px 8px;
-  font-size: 16px;
-  font-family: "Roboto-Regular";
-  color: #505050;
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text {
+.direction-content .direction-text {
   border-radius: 8px;
   background-color: #fff;
   overflow: hidden;
-  margin: 15px 0 15px 20px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   padding: 0;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .direction-heading {
+.direction-content .direction-text .direction-heading {
   margin-bottom: 20px;
-  background: url(../img/directions/1.jpg);
+  background: url(../img/directions/9.jpg) no-repeat;
   filter: contrast(110%);
   background-size: cover;
-  height: 120px;
+  height: 200px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -23077,28 +23024,28 @@ body {
   color: #505050;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .direction-heading .heading {
+.direction-content .direction-text .direction-heading .heading {
   padding: 20px;
   display: flex;
   align-items: center;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, white, rgba(255, 255, 255, 0.5));
+  background: linear-gradient(90deg, white, rgba(255, 255, 255, 0.3));
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .direction-description {
+.direction-content .direction-text .direction-description {
   margin-bottom: 20px;
   padding: 20px;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .direction-description p {
+.direction-content .direction-text .direction-description p {
   font-size: 14px;
   font-family: "Roboto-Regular";
   color: #505050;
   line-height: 1.5;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .direction-description h4 {
+.direction-content .direction-text .direction-description h4 {
   font-size: 18px;
   font-family: "Roboto-Medium";
   color: #505050;
@@ -23106,7 +23053,7 @@ body {
   padding: 20px 0;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .direction-description ul li {
+.direction-content .direction-text .direction-description ul li {
   font-size: 14px;
   font-family: "Roboto-Regular";
   color: #505050;
@@ -23114,7 +23061,7 @@ body {
   position: relative;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .direction-description ul li::before {
+.direction-content .direction-text .direction-description ul li::before {
   position: absolute;
   left: 0;
   top: 5px;
@@ -23126,35 +23073,35 @@ body {
   background-color: #04aac7;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .additional-description {
+.direction-content .direction-text .additional-description {
   padding: 20px;
-  margin-bottom: 20px;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 {
+.direction-content .direction-text .additional-description .container-1 {
   background-color: #f2fbfc;
   width: 50%;
   padding: 20px 30px;
   border: 1px solid #d9f2f7;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 .heading {
+.direction-content .direction-text .additional-description .container-1 .heading {
   display: flex;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 .heading i {
+.direction-content .direction-text .additional-description .container-1 .heading i {
   color: #03889f;
   font-size: 35px;
   margin-right: 15px;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 .heading span {
+.direction-content .direction-text .additional-description .container-1 .heading span {
   font-size: 22px;
   font-family: "Roboto-Medium";
   color: #03889f;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 p {
+.direction-content .direction-text .additional-description .container-1 p,
+.direction-content .direction-text .additional-description .container-1 ul {
   font-size: 12px;
   font-family: "Roboto-Regular";
   color: #0499b3;
@@ -23162,81 +23109,23 @@ body {
   margin-top: 20px;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .price-a {
+.direction-content .direction-text .additional-description .container-1 ul {
+  list-style-type: disc;
+}
+
+.direction-content .direction-text .price-a {
   padding: 20px;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .price-a a {
+.direction-content .direction-text .price-a a {
   font-size: 16px;
   font-family: "Roboto-Regular";
   color: #04aac7;
 }
 
-.container-fluid .direction-information .container .direction-content .direction-text .price-a a i {
+.direction-content .direction-text .price-a a i {
   padding-left: 5px;
   font-size: 11px;
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main h3 {
-  padding-top: 20px;
-  font-size: 22px;
-  font-family: "Roboto-Medium";
-  color: #04aac7;
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 15px 20px;
-  width: calc(33.33% - 40px);
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item:hover img {
-  box-shadow: 0px 5px 20px rgba(12, 68, 89, 0.7);
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item:hover .ourDoctors__name {
-  color: #04aac7;
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__box-img img {
-  border-radius: 50%;
-  max-width: 220px;
-  height: auto;
-  transition: 0.3s all;
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__rating {
-  padding: 10px 0;
-  color: #04aac7;
-  font-size: 13px;
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__name {
-  font-size: 18px;
-  font-family: "Roboto-Medium";
-  color: #04aac7;
-  padding-bottom: 8px;
-  transition: 0.3s all;
-}
-
-.container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__trade {
-  font-size: 14px;
-  font-family: "Roboto-Medium";
-  color: rgba(80, 80, 80, 0.7);
-  line-height: 1.2;
 }
 
 @media screen and (min-width: 36rem) {
@@ -26938,23 +26827,6 @@ body {
   .doctorDetails .doctorDetails__content .container-fluid .container .row .description-doctor .details-info .specialization {
     padding-bottom: 20px;
   }
-
-  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content li {
-    line-height: 19px;
-  }
-
-  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content .box-img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards {
-    padding: 20px 0;
-  }
-
-  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__box-img img {
-    max-width: 200px;
-  }
 }
 
 @media (max-width: 992.98px) {
@@ -27314,25 +27186,8 @@ body {
     margin-right: 5px;
   }
 
-  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar {
-    padding-top: 20px;
-  }
-
-  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content {
-    padding-bottom: 30px;
-  }
-
-  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar .mainDoctorsAndReferrals__navbar-content .box-img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .container-fluid .direction-information .container .direction-content .direction-text .additional-description .container-1 {
+  .direction-content .direction-text .additional-description .container-1 {
     width: 100%;
-  }
-
-  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item {
-    width: calc(50% - 40px);
   }
 }
 
@@ -27670,20 +27525,8 @@ body {
     padding: 15px 15px 0 15px;
   }
 
-  .container-fluid .direction-information .container .direction-content .mainDoctorsAndReferrals__navbar {
-    display: none;
-  }
-
-  .container-fluid .direction-information .container .direction-content .direction-text {
+  .direction-content .direction-text {
     margin: 15px 0;
-  }
-
-  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards {
-    padding: 0 0 20px 0;
-  }
-
-  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item .ourDoctors__box-img {
-    margin-top: 20px;
   }
 }
 
@@ -27861,10 +27704,6 @@ body {
 
 @media (max-width: 466px) {
   .mainDoctorsAndReferrals .container-fluid .container .mainDoctorsAndReferrals__cartsOfDoctors .ourDoctors__main .ourDoctors__cards .ourDoctors__item {
-    width: calc(100% - 40px);
-  }
-
-  .container-fluid .direction-information .container .direction-content .direction-text .ourDoctors__main .ourDoctors__cards .ourDoctors__item {
     width: calc(100% - 40px);
   }
 }
