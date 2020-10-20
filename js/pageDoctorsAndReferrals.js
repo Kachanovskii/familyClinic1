@@ -266,6 +266,7 @@ $('.callback-bt__modal-content input[type="submit"]').click(function (e) {
   var elements = $('.callback-bt-input, .modal-overlay__bt-input');
   e.preventDefault();
   elements.removeClass('activeModal');
+  $('body').removeClass('scroll-hidden');
 });
 $(document).ready(function ($) {
   var elements = $('.callback-bt-input, .modal-overlay__bt-input');
@@ -300,6 +301,33 @@ $(document).ready(function ($) {
   });
 });
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
+
+/***/ }),
+
+/***/ "./src/blocks/modules/department/scriptDepartment.js":
+/*!***********************************************************!*\
+  !*** ./src/blocks/modules/department/scriptDepartment.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function $div(cls) {
+  return document.querySelector(cls);
+}
+
+var department = localStorage.getItem('key');
+var objDepartments = {
+  0: ".family-doc",
+  1: ".urology",
+  2: ".uzd",
+  3: ".otolaryngology",
+  4: ".massage",
+  5: ".gynecology",
+  6: ".dermatology",
+  7: ".cosmetology",
+  8: ".surgery"
+};
+$div(objDepartments[department]).style.display = 'flex';
 
 /***/ }),
 
@@ -355,8 +383,6 @@ var a = document.querySelectorAll('.navigation__link');
 
 for (var i = 0; i < a.length; i++) {
   if (a[i].href == link) {
-    console.log(a[4].href);
-
     if (i == 3) {
       a[i].classList.add('active-point-red');
     }
@@ -387,9 +413,22 @@ for (var _i = 0; _i < link_mobil.length; _i++) {
   !*** ./src/blocks/modules/mainDoctorsAndReferrals/mainDoctorsAndReferrals.js ***!
   \*******************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
+  $('.navbar-icon-wrapper').click(function () {
+    $(this).toggleClass('open');
+    $('.mainDoctorsAndReferrals__navbar').toggleClass('open');
+    $('body').toggleClass('scroll-hidden');
+  });
+  $('.mainDoctorsAndReferrals__navbar').click(function (e) {
+    if ($(e.target).closest('.mainDoctorsAndReferrals__navbar-content').length == 0) {
+      $('.mainDoctorsAndReferrals__navbar, .navbar-icon-wrapper').removeClass('open');
+      $('body').removeClass('scroll-hidden');
+    }
+  });
+});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 
 /***/ }),
 
@@ -688,6 +727,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_callbackButton_callbackButton__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_modules_callbackButton_callbackButton__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _modules_mainDoctorsAndReferrals_mainDoctorsAndReferrals__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! %modules%/mainDoctorsAndReferrals/mainDoctorsAndReferrals */ "./src/blocks/modules/mainDoctorsAndReferrals/mainDoctorsAndReferrals.js");
 /* harmony import */ var _modules_mainDoctorsAndReferrals_mainDoctorsAndReferrals__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_modules_mainDoctorsAndReferrals_mainDoctorsAndReferrals__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _modules_department_scriptDepartment__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! %modules%/department/scriptDepartment */ "./src/blocks/modules/department/scriptDepartment.js");
+/* harmony import */ var _modules_department_scriptDepartment__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_modules_department_scriptDepartment__WEBPACK_IMPORTED_MODULE_8__);
+
 
 
 

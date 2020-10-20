@@ -266,6 +266,7 @@ $('.callback-bt__modal-content input[type="submit"]').click(function (e) {
   var elements = $('.callback-bt-input, .modal-overlay__bt-input');
   e.preventDefault();
   elements.removeClass('activeModal');
+  $('body').removeClass('scroll-hidden');
 });
 $(document).ready(function ($) {
   var elements = $('.callback-bt-input, .modal-overlay__bt-input');
@@ -344,7 +345,6 @@ $(document).ready(function ($) {
 });
 $('.certificates-carousel').click(function (e) {
   if (e.target.tagName === "IMG" && e.target.src) {
-    console.log(e.target);
     document.querySelector('.certificate__modal-content img').setAttribute('src', e.target.src);
   }
 });
@@ -431,8 +431,6 @@ var a = document.querySelectorAll('.navigation__link');
 
 for (var i = 0; i < a.length; i++) {
   if (a[i].href == link) {
-    console.log(a[4].href);
-
     if (i == 3) {
       a[i].classList.add('active-point-red');
     }
