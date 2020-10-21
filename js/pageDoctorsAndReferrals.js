@@ -353,9 +353,7 @@ for (var i = 0; i < $links.length; i++) {
   _loop(i);
 }
 
-window.onbeforeunload = function () {
-  localStorage.clear();
-};
+localStorage.clear();
 
 /***/ }),
 
