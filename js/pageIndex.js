@@ -3813,19 +3813,22 @@ __webpack_require__.r(__webpack_exports__);
 var WOW = __webpack_require__(/*! ../wow/wow.min.js */ "./src/js/import/wow/wow.min.js");
 
 var link = document.querySelectorAll(".card__a");
+var v = false;
 
 var _loop = function _loop(i) {
   link[i].addEventListener("click", function () {
     localStorage.setItem('key', i);
+    v = true;
   });
+
+  if (v == false) {
+    localStorage.clear();
+  }
 };
 
 for (var i = 0; i < link.length; i++) {
   _loop(i);
-} // link[0].addEventListener("click", function () {
-//     localStorage.setItem("test", ['test1', 'test2']);
-// });
-
+}
 
 window.wow = new WOW.WOW({
   // default

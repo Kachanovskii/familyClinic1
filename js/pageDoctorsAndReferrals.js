@@ -315,6 +315,10 @@ function $div(cls) {
   return document.querySelector(cls);
 }
 
+function $divAll(cls) {
+  return document.querySelectorAll(cls);
+}
+
 var department = localStorage.getItem('key');
 var objDepartments = {
   0: ".family-doc",
@@ -327,7 +331,31 @@ var objDepartments = {
   7: ".cosmetology",
   8: ".surgery"
 };
-$div(objDepartments[department]).style.display = 'flex';
+
+if (localStorage.getItem('key') !== null) {
+  $div(objDepartments[department]).style.display = 'flex';
+}
+
+var $links = $divAll('.mainDoctorsAndReferrals__navbar-content li');
+
+var _loop = function _loop(i) {
+  $links[i].addEventListener("click", function (events) {
+    for (var j = 0; j < $divAll('.direction-content').length; j++) {
+      $div(objDepartments[j]).style.display = 'none';
+    }
+
+    var a = i - 1;
+    $div(objDepartments[a]).style.display = 'flex';
+  });
+};
+
+for (var i = 0; i < $links.length; i++) {
+  _loop(i);
+}
+
+window.onbeforeunload = function () {
+  localStorage.clear();
+};
 
 /***/ }),
 
